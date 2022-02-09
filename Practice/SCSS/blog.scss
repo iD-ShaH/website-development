@@ -1,0 +1,65 @@
+@import "null.scss";
+@import "font-family.scss";
+$ffGb: Gilroy-bold;
+$ffGm: Gilroy-medium;
+
+.container {
+    width: 940px;
+    margin: auto;
+}
+.bar {
+}
+.bar__ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px 32px 0px;
+    border-bottom: 1px solid #828282;
+}
+.bar__li {
+    margin: 0px 155px 0px 0px;
+    list-style-type: none;
+    font-family: Gilroy-bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    &:hover {
+        color: #070707;
+    }
+    &:last-child {
+        margin: 0px 0px 0px 0px;
+    }
+}
+.bar__sub-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.bar__head-name {
+    font-family: Gilroy-bold;
+    font-size: 47px;
+    line-height: 59px;
+    color: #070707;
+    margin: 40px 297px 31px 0px;
+}
+.bar__head-info {
+    font-family: $ffGm;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin: 95px 350px 50px 0px;
+}
+.bar__head-link {
+    font-family: $ffGb;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    &:hover {
+        color: #070707;
+    }
+}
+.head-link {
+}
+.ru {
+}
+.eng {
+}
