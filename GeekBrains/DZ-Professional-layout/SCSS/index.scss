@@ -1,12 +1,12 @@
 @import "../SCSS/style-null.scss";
-
+/*Шапка сайта*/
 .container {
     max-width: 1140px;
     margin: auto;
 }
 .head {
     background-color: #222222;
-    width: 1600px;
+    //width: 1600px;
     height: 75px;
 }
 .head__bar {
@@ -26,4 +26,31 @@
 }
 .head__basket {
     padding: 26px 0px 20px 0px;
+}
+/*--------------------*/
+/*Первый блок основного контента*/
+.block-1__backgraund {
+    background-color: #f1e4e6;
+}
+.block-1 {
+    display: flex;
+    height: 764px;
+}
+.block-1__men {
+    //border: 1px solid #000000;
+}
+.block-1__img {
+    height: 764px;
+}
+
+.block-1__title {
+    //border: 1px solid #000000;
+}
+.title__rectangle {
+    background-color: #f16d7f;
+    width: 12px;
+    height: 92px;
+    margin: 290px 16px 0px 64px;
+}
+.title__text {
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -92,6 +93,7 @@ h6 {
   color: red;
 }
 
+/*Шапка сайта*/
 .container {
   max-width: 1140px;
   margin: auto;
@@ -99,7 +101,6 @@ h6 {
 
 .head {
   background-color: #222222;
-  width: 1600px;
   height: 75px;
 }
 
@@ -127,4 +128,28 @@ h6 {
 
 .head__basket {
   padding: 26px 0px 20px 0px;
+}
+
+/*--------------------*/
+/*Первый блок основного контента*/
+.block-1__backgraund {
+  background-color: #f1e4e6;
+}
+
+.block-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 764px;
+}
+
+.block-1__img {
+  height: 764px;
+}
+
+.title__rectangle {
+  background-color: #f16d7f;
+  width: 12px;
+  height: 92px;
+  margin: 290px 16px 0px 64px;
 }
