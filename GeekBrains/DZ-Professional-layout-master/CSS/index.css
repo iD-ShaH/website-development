@@ -1,0 +1,263 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.bigred {
+  font-size: 20px;
+  color: red;
+}
+
+/*Шапка сайта*/
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.head {
+  background-color: #222222;
+  height: 75px;
+}
+
+.head__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.head__logo {
+  padding: 18px 40px 18px 0px;
+}
+
+.head__search {
+  padding: 28px 859px 20px 0px;
+}
+
+.head__menu {
+  padding: 30px 33px 22px 0px;
+}
+
+.head__account {
+  padding: 26px 33px 20px 0px;
+}
+
+.head__basket {
+  padding: 26px 0px 20px 0px;
+}
+
+/*--------------------*/
+/*Первый блок основного контента*/
+.block-1__backgraund {
+  background-color: #f1e4e6;
+}
+
+.block-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 764px;
+}
+
+.block-1__img {
+  height: 764px;
+  margin-left: -200px;
+}
+
+.block-1__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title__rectangle {
+  background-color: #f16d7f;
+  width: 12px;
+  height: 92px;
+  margin: 290px 16px 0px 26px;
+}
+
+.title__text {
+  font-family: "Lato", sans-serif;
+  margin: 290px 0px 380px 0px;
+  color: #222222;
+  font-size: 32px;
+  line-height: 38px;
+  width: 377px;
+}
+
+.block-1__title-1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.block-1__title-2 {
+  color: #f16d7f;
+}
+
+.block-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 360px 360px 360px;
+      grid-template-columns: 360px 360px 360px;
+  -ms-grid-rows: 260px 180px;
+      grid-template-rows: 260px 180px;
+  gap: 30px;
+  padding: 65px 0px 96px 0px;
+}
+
+.block-2__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 360px;
+  height: 260px;
+  background-repeat: no-repeat;
+}
+
+.card-1 {
+  background: url(../IMG/JPG/block-2-card-1.jpg);
+  z-index: 1;
+}
+
+.card-2 {
+  background: url(../IMG/JPG/block-2-card-2.jpg);
+}
+
+.card-3 {
+  background: url(../IMG/JPG/block-2-card-3.jpg);
+}
+
+.card-4 {
+  background: url(../IMG/JPG/block-2-card-4.jpg);
+  width: 1140px;
+  height: 180px;
+}
+
+.block-2__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 105px;
+}
+
+.block-2__subtitle {
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f16d7f;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 28px;
+  width: 155px;
+}
+
+.backgraund-dark {
+  background: rgba(33, 22, 22, 0.7);
+}
